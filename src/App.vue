@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Atividade1 msg="Conteudo 1"/>
+  <Atividade2 msg="Conteudo 2"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Atividade1 from './components/Atividade1'
+import Atividade2 from './components/Atividade2'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Atividade1,
+    Atividade2
   }
 }
 </script>
@@ -19,8 +21,17 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin-top: 40px;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+
+header{
+  font-size: 20px;
+  color: white;
+  padding: 5px;
+}
+
+li{
+  text-align: left;
 }
 </style>
