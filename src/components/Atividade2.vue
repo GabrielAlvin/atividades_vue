@@ -41,6 +41,5 @@ export default {
     }
     div{
         text-align: left;
-        padding: 0px 0px 16px 40px;
     }
 </style>
